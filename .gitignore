@@ -203,14 +203,12 @@ cython_debug/
 
 # Marimo
 marimo/_static/
-marimo/_lsp/
-__marimo__/
+marimo/_ls__marimo__/
+ HEAD
 
+>>>>>>> 1b3339d (Extend gitignore for ML artifacts and data)
 
-# =========================
 # ML / Data Science
-# =========================
-
 # Data (never commit raw or processed data)
 data/raw/
 data/interim/
@@ -224,8 +222,14 @@ checkpoints/
 mlruns/
 wandb/
 
+<<<<<<< HEAD
 # Local notebooks output
 notebooks/.ipynb_checkpoints/
 
 # Logs
 logs/
+=======
+# Logs
+logs/
+
+>>>>>>> 1b3339d (Extend gitignore for ML artifacts and data)
