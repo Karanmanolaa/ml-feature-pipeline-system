@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# =========================
+# ML / Data Science
+# =========================
+
+# Data (never commit raw or processed data)
+data/raw/
+data/interim/
+data/processed/
+
+# Model artifacts
+models/
+checkpoints/
+
+# Experiment tracking
+mlruns/
+wandb/
+
+# Local notebooks output
+notebooks/.ipynb_checkpoints/
+
+# Logs
+logs/
